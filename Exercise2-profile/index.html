@@ -1,14 +1,104 @@
-<!doctype html>
+<!DOCTYPE html>
+
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
-    <!--app-head-->
-  </head>
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/png" href="/heartbroken.png" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My resume</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    /* @import "./src/style.css" layer(firstLayer); */
+    
+  </style>
+
+
+</head>
+
   <body>
-    <div id="app"><!--app-html--></div>
-    <script type="module" src="/src/entry-client.js"></script>
-  </body>
+    <header>
+      <h1>NATTHIYA CHAKAEW</h1>
+    </header>
+
+    <nav>
+      <a href="/">HOME</a>
+      <a href="#about">ABOUT</a>
+      <a href="https://github.com/Daidyrabbit/Zyntax_academy/tree/main/Exercise2-profile">GITHUB</a>
+      <a href="#contacts">CONTACTS</a>
+    </nav>
+
+    <main>
+
+      <img src="./public/new.png" alt="Eve"
+        />
+    
+        <table>
+          <thead>
+            <tr>
+              <th>Institution</th>
+              <th>Grade</th>
+              <th>Year</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th>KaennaKhonWittayalai school</th>
+              <td>Elementary School</td>
+              <td> 2011 - 2017 </td>
+            </tr>
+            <tr>
+              <th>KaennaKhonWittayalai School</th>
+              <td>High School</td>
+              <td> 2017 - 2023 </td>
+            </tr>
+            <tr>
+              <th>Khon Kaen University</th>
+              <td>Bachelor Degrees</td>
+              <td> 2023 - Present </td>
+            </tr>
+          </tbody>
+        </table>
+
+        <article>
+          <h3>SKILLS & COMPETENCIES</h3>
+          <li>React / Next.js</li>
+          <li>CSS / Tailwind CSS</li>
+          <li>HTML / JavaScript / TypeScript</li>
+          <li>Figma</li>
+          <li>MongoDB / Postman</li>
+          <li>User Experience Design</li>
+        </article>
+
+        <nav aria-label="breadcrumbs">
+          <h2>Experience</h2>
+          <ol role="list">
+            <li>
+              <a href="/frontend">Frontend Developer</a>
+            </li>
+            <li>
+              <a href="/ui">UI Designer</a>
+            </li>
+            <li>
+              <a href="/fullstack">Full Stack Developer</a>
+            </li>
+          </ol>
+        </nav>
+
+        <video width="400" controls>
+          <source src="./public/Sorry.mp4" type="video/mp4">
+          Your browser does not support HTML video.
+        </video>
+        <p>Ma favorite song is
+        <a href="https://www.youtube.com/watch?v=jmzAf54Re8A&list=RDMMjmzAf54Re8A&start_radio=1" target="_blank">I Love You, I'm Sorry</a>.
+        </p>
+        
+    </main>
+
+    <footer>
+      <p>&copy;Thank you from Natthiya</p>
+    </footer>
+    
 </html>

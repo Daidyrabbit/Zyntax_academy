@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Exercise 4 - Pokemon Grid</title>
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+
+<body>
+    <header>
+        <img src="./src/pokemonLogo.png" alt="pokemonLogo" class="logo">
+    </header>
+
+    <section class="filter">
+
+        <div class="select-type">
+            <label for="type">Type</label>
+            <select id="type">
+                <option selected disabled>Select Type</option>
+                <option>Colorless</option>
+                <option>Darkness</option>
+                <option>Dragon</option>
+                <option>Electric</option>
+            </select>
+        </div>
+
+        <div class="select-type">
+            <label for="captured">Captured</label>
+            <select id="captured">
+                <option selected disabled>Any</option>
+                <option>Captured</option>
+                <option>Not Captured</option>
+            </select>
+        </div>
+    </section>
+
+    <main class="grid-container">
+
+        <div class="cards">
+            <div class="card">
+                <img src="./src/bulbasaur.png" alt="bulbasaur">
+                <h3>Bulbasaur</h3>
+                <p>Darkness</p>
+                <div class="checkbox">
+                    <span>Captured</span>
+                    <input id="char-1" type="checkbox" class="switch">
+                    <label for="char-1"></label>
+                </div>
+            </div>
+        </div>
+
+        <div class="cards">
+            <div class="card">
+                <img src="./src/butterfree.png" alt="butterfree">
+                <h3>Butterfree</h3>
+                <p>Dragon</p>
+                <div class="checkbox">
+                     <span>Captured</span>
+                    <input id="char-2" type="checkbox" class="switch">
+                    <label for="char-2"></label>
+                </div>
+            </div>
+        </div>
+
+        <div class="cards">
+            <div class="card">
+                <img src="./src/charmander.png" alt="charmander">
+                <h3>Charmander</h3>
+                <p>Electric</p>
+                <div class="checkbox">
+                     <span>Captured</span>
+                    <input id="char-3" type="checkbox" class="switch">
+                   <label for="char-3"></label>
+                </div>
+            </div>
+        </div>
+
+        <div class="cards">
+            <div class="card">
+                <img src="./src/charmeleon.png" alt="charmeleon">
+                <h3>Charmeleon</h3>
+                <p>Electric</p>
+                <div class="checkbox">
+                     <span>Captured</span>
+                    <input id="char-4" type="checkbox" class="switch">
+                    <label for="char-4"></label>
+                </div>
+            </div>
+        </div>
+
+        <div class="cards">
+            <div class="card">
+                <img src="./src/squirtle.png" alt="squirtle">
+                <h3>Squirtle</h3>
+                <p>Colorless</p>
+                <div class="checkbox">
+                    <span>Captured</span>
+                    <input id="char-5" type="checkbox" class="switch">
+                    <label for="char-5"></label>
+                </div>
+            </div>
+        </div>
+
+        <div class="cards">
+            <div class="card">
+                <img src="./src/venusaur.png" alt="venusaur">
+                <h3>Venusaur</h3>
+                <p>Electric</p>
+                <div class="checkbox">
+                    <span>Captured</span>
+                    <input id="char-6" type="checkbox" class="switch">
+                    <label for="char-6"></label>
+                </div>
+            </div>
+        </div>
+
+        <div class="cards">
+            <div class="card">
+                <img src="./src/bulbasaur.png" alt="bulbasaur">
+                <h3>Bulbasaur</h3>
+                <p>Darkness</p>
+                <div class="checkbox">
+                    <span>Captured</span>
+                    <input id="char-7" type="checkbox" class="switch">
+                    <label for="char-7"></label>
+                </div>
+            </div>
+        </div>
+
+        <div class="cards">
+            <div class="card">
+                <img src="./src/butterfree.png" alt="butterfree">
+                <h3>Butterfree</h3>
+                <p>Dragon</p>
+                <div class="checkbox">
+                     <span>Captured</span>
+                    <input id="char-7" type="checkbox" class="switch">
+                    <label for="char-7"></label>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+</body>
+
+
+</html>
